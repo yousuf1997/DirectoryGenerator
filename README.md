@@ -29,7 +29,7 @@ difference is that the root folder defintion has the base path, which sub folder
 You can have any number of subfolders you can have, even the sub folder can have its own sub folders. You just have to 
 define the sub folder object inside the "subDirs" array. Only the base folder definition is required to have the base path.
 
-# An example java code generate the directories based on the JSON definition. 
+# An example java code to generate the directories based on the JSON definition. 
 
 ```
         DirGenerator dirGenerator = new DirGenerator();
