@@ -1,0 +1,38 @@
+{
+    "basePath": "C:\\Users\\moham\\Desktop",
+    "baseDirectoryName": "MonthlyExpense",
+    "subDirs": [
+        {
+            "directoryName": "Jan Expense",
+            "subDirs": [
+                {
+                    "directoryName": "Jan First week Expense",
+                    "subDirs": []
+                }
+            ]
+        },
+        {
+            "directoryName": "Feb Expense",
+            "subDirs": [
+                {
+                    "directoryName": "Feb First week Expense",
+                    "subDirs": []
+                },
+                {
+                    "directoryName": "Feb Second week Expense",
+                    "subDirs": [
+                        {
+                            "directoryName": "Feb First week First day Expense",
+                            "subDirs": [
+                                {
+                                    "directoryName": "Feb First week First day Morning Expense",
+                                    "subDirs": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
