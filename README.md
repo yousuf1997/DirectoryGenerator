@@ -28,3 +28,14 @@ If you notice the structure of the JSON object is almost same in the root folder
 difference is that the root folder defintion has the base path, which sub folders do not have the attribute.
 You can have any number of subfolders you can have, even the sub folder can have its own sub folders. You just have to 
 define the sub folder object inside the "subDirs" array. Only the base folder definition is required to have the base path.
+
+# An example java code generate the directories based on the JSON definition. 
+
+```
+        DirGenerator dirGenerator = new DirGenerator();
+        // Read the definition from the json file
+        dirGenerator.readFromJSONFile("C:\\Users\\USER\\Downloads\\testFile.json");
+        // Generate directories based on the definition provider in the json
+        dirGenerator.generateDirectories();
+        
+  ```
