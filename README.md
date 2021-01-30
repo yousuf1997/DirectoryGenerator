@@ -35,7 +35,7 @@ define the sub folder object inside the "subDirs" array. Only the base folder de
         DirGenerator dirGenerator = new DirGenerator();
         // Read the definition from the json file
         dirGenerator.readFromJSONFile("C:\\Users\\USER\\Downloads\\testFile.json");
-        // Generate directories based on the definition provider in the json
+        // Generate directories based on the definition provide in the json
         dirGenerator.generateDirectories();
         
   ```
